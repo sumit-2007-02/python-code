@@ -13,5 +13,5 @@ def myfunction():
    print("a = ",a) #display global var
    print("b = ",b) #display local var
 myfunction()
-print("global variable=",a) #available
+print("global variable= ",a) #available
 # print(b) #error,not available
