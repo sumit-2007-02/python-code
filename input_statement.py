@@ -17,3 +17,12 @@ print ("The sum of {0} and {1} is {2}".format(x,y,(x+y)))
 print ("The sub of {0} and {1} is {2}".format(x,y,(x-y)))
 print ("The mul of {0} and {1} is {2}".format(x,y,(x*y)))
 print ("The div of {0} and {1} is {2}".format(x,y,(x/y)))
+
+#accepting 3 numbers separated by space
+var1,var2,var3=[int(x) for x in input("Enter three numbers:").split()]
+print("sum = ",var1+var2+var3)
+
+# evaluation method
+a,b=5,10
+result=eval("a+b-4")
+print(result)

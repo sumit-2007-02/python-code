@@ -9,3 +9,4 @@ args = sys.argv
 print ("Arguments are = ",args)
 for i in args :
     print (i)
+
